@@ -24,8 +24,10 @@
   .cover__subtitle   { 
     padding: 0 332px 195px 332px;
 }
+}
 
 @media screen and (min-width: 1280px) {
   .cover__subtitle   { 
     padding: 0 412px 245px 412px;
+}
 }
