@@ -1,0 +1,14 @@
+.footer__links {
+  list-style-type: none;
+  padding-bottom: 32px;
+}
+
+.footer__links:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__links {
+  padding: 0  0 24px 0;
+  }
+}

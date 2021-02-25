@@ -1,0 +1,24 @@
+.cover__overlay {
+  background-image: url(../../../sprint-3-images/__background.png);
+   background-size: cover;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .cover__overlay::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+}

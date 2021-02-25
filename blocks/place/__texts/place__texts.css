@@ -1,0 +1,12 @@
+.place__texts {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__texts { 
+  padding-top: 0;
+  }
+}

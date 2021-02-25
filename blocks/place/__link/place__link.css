@@ -1,0 +1,17 @@
+.place__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding-top: 12px;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .place__link { 
+    padding-top: 12px;
+    }
+  }
+
