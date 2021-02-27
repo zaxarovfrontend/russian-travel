@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 /*Блок 1 Header*/
 @import url(../blocks/header/header.css);
@@ -7,20 +8,20 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
-/*Блок 2 с заголовком Путешествия по России */
+/*Блок 2 lead */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-/*Блок 3 Чего мы там не делали */
+/*Блок 3 Intro */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__lists/intro__lists.css);
-@import url(../blocks/intro/__lists/_text/intro__list_text-decoration.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 /*Блок 4 Фотки Грид */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -30,7 +31,6 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__texts/place__texts.css);
 @import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__title/_text-decoration/place__title_text-decoration.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/place.css);

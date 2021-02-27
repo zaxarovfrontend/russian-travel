@@ -1,5 +1,5 @@
 .cover__subtitle {
-  max-width: 255px;
+  max-width: 229px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0 16px 33px 16px;
   position: relative;
+  box-sizing: border-box;
 }
 
 
@@ -17,6 +18,7 @@
     font-size: 18px;
     line-height: 22px;
     padding: 0 204px 115px 204px;
+    box-sizing: initial;
   }
 }
 

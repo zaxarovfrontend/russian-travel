@@ -1,22 +1,21 @@
 .place__image {
-  box-sizing: border-box;
   max-width: 100%;
   }
   
   @media screen and (min-width: 768px) {
     .place__image { 
-    padding-left: 24px;
+    max-width: 340px;
     }
   }
 
   @media screen and (min-width: 1024px) {
     .place__image { 
-    padding-left: 48px;
+    max-width: 440px;
     }
   }
 
   @media screen and (min-width: 1280px) {
     .place__image { 
-    padding-left: 148px;
+    max-width: 460px;
     }
   }

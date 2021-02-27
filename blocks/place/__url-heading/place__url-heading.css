@@ -5,5 +5,19 @@
   line-height: 12px;
   letter-spacing: 0.2em;
   color: #AAAAAA;
-  padding-bottom: 12px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .place__url-heading  { 
+    padding-bottom: 23px;
+  }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .place__url-heading  { 
+    padding-bottom: 16px;
+  }
   }

@@ -1,24 +1,24 @@
 .cover {
-  padding-top: 66px;
-  padding-bottom: 64px;
+  padding-top: 62px;
+  padding-bottom: 49px;
   position: relative;
 }
 
 
 @media screen and (min-width: 768px) {
   .cover  { 
-padding: 88px 0 90px 0;
+padding: 83px 0 87px 0;
 }
 }
 
 @media screen and (min-width: 1024px) {
   .cover  { 
-padding: 92px 0 92px 0;
+padding: 106px 0 92px 0;
 }
 }
 
 @media screen and (min-width: 1280px) {
   .cover { 
-padding: 92px 48px;
+padding: 90px 48px;
 }
 }

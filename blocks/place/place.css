@@ -1,33 +1,37 @@
 .place {
-  min-width: 320px;
-  box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  padding-bottom: 50px;
+  grid-template-columns: repeat(1,  minmax(content));
+  padding-bottom: 60px;
+  box-sizing: border-box;
 }
 
 
 @media screen and (min-width: 768px) {
   .place { 
-    min-width: 720px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(2, minmax(content));
     gap: 48px 28px;
-    padding-bottom: 73px;
+    padding-bottom: 62px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place { 
     gap: 48px 32px;
-    padding-bottom: 80px;
+    padding-bottom: 74px;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place { 
     gap: 48px 40px;
+    padding-right: 148px;
+    padding-left: 148px;
+    padding-bottom: 80px;
   }
 }
 
